@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .quadratino{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.giallo{
+  background-color: yellow;
+}
+
+.verde{
+  background-color: green;
+}
